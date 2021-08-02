@@ -15,13 +15,13 @@ def home():
     return js
 
 
-# @app.route('/popularity', methods=['GET'])
-# def popularity():
-#     user_id = request.args['user_id']
-#     response = popularity(user_id)
-#     print(response)
-#     js = response['song'].to_json()
-#     return js
+@app.route('/popularity', methods=['GET'])
+def popularity():
+    user_id = request.args['user_id']
+    response = popularity(user_id)
+    print(response)
+    js = response['song'].to_json()
+    return js
 
 
 # if __name__ == '__main__':
