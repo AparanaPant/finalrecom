@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="auth.manager.Profile" />
+          <option value="auth.schemas.SignUpSchema" />
+          <option value="try4.hospital.schema.core" />
+          <option value="try4.hospital.schema.hospital" />
+          <option value="notify.schemas.notification_schema.NOTIFICATION_ACTIONS" />
+          <option value="notify.manager.consultation_manager.consultationType" />
+          <option value="v1.pharmacy.resources.update_sales_order.SalesOrderSchema" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
